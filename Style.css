@@ -6,13 +6,13 @@
 }
 
 body{
-    background-color: #222;
+    background-color: darkgray;
 }
 
 .class{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #00a5ce, #1d0f7c);
+    background: linear-gradient(135deg, #00b4db, #0083b0);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -48,6 +48,11 @@ body{
     width: 60px;
     height: 60px;
     cursor: pointer;
+    transition: transform .2s;
+}
+
+.search button:hover{
+    transform: scale(1.2);
 }
 
 .search button img{
